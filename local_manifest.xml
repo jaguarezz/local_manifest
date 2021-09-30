@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-<!-- Device Trees -->
- <project name="jagaddhita/device_xiaomi_ulysse" path="device/xiaomi/ulysse" remote="github" revision="11" />
- <project name="jagaddhita/device_xiaomi_ulysse-common" path="device/xiaomi/ulysse-common" remote="github" revision="11" />
+<!-- DT -->
+ <project name="jagaddhita/android_device_xiaomi_ulysse" path="device/xiaomi/ulysse" remote="github" revision="lineage-18.1" />
+ <project name="jagaddhita/android_device_xiaomi_msm8937-common" path="device/xiaomi/msm8937-common" remote="github" revision="lineage-18.1" />
 
-<!-- Vendor Trees -->
- <project name="jagaddhita/vendor_xiaomi_ulysse" path="vendor/xiaomi/ulysse" remote="github" revision="11-ugg" />
+<!-- VT -->
+ <project name="jagaddhita/proprietary_vendor_xiaomi_ulysse" path="vendor/xiaomi/ulysse" remote="github" revision="lineage-18.1" />
+ <project name="jagaddhita/proprietary_vendor_xiaomi_msm8937-common" path="vendor/xiaomi/msm8937-common" remote="github" revision="lineage-18.1" />
   
-<!-- Kernels -->
- <project name="jagaddhita/kernel_xiaomi_ulysse-4.9" path="kernel/xiaomi/ulysse" remote="github" revision="11" />
+<!-- KT -->
+ <project name="jagaddhita/kernel_xiaomi_ulysse-4.9" path="kernel/xiaomi/msm8937" remote="github" revision="11" />
 
 </manifest>
