@@ -10,6 +10,6 @@
  <project name="jagaddhita/proprietary_vendor_xiaomi_msm8937-common" path="vendor/xiaomi/msm8937-common" remote="github" revision="lineage-18.1" />
   
 <!-- KT -->
- <project name="jagaddhita/kernel_xiaomi_ulysse-4.9" path="kernel/xiaomi/msm8937" remote="github" revision="11" />
+ <project name="jagaddhita/android_kernel_xiaomi_msm8937" path="kernel/xiaomi/msm8937" remote="github" revision="a11" />
 
 </manifest>
