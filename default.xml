@@ -2,7 +2,7 @@
 <manifest>
 
 <!-- DT -->
- <project name="jagaddhita/android_device_xiaomi_ulysse" path="device/xiaomi/ulysse" remote="github" revision="lineage-18.1" />
+ <project name="jagaddhita/android_device_xiaomi_ulysse" path="device/xiaomi/ulysse" remote="github" revision="dot11" />
  <project name="jagaddhita/android_device_xiaomi_msm8937-common" path="device/xiaomi/msm8937-common" remote="github" revision="lineage-18.1" />
 
 <!-- VT -->
