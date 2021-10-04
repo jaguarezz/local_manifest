@@ -4,11 +4,8 @@
 <remote name="github"
         fetch="https://github.com" />
 
-<!-- Remove Some Project -->
- <remove-project name="device/generic/opengl-transport" />
-
 <!-- DT -->
- <project name="jagaddhita/android_device_xiaomi_ulysse" path="device/xiaomi/ulysse" remote="github" revision="derp" />
+ <project name="jagaddhita/android_device_xiaomi_ulysse" path="device/xiaomi/ulysse" remote="github" revision="octavi" />
  <project name="jagaddhita/android_device_xiaomi_msm8937-common" path="device/xiaomi/msm8937-common" remote="github" revision="eleven" />
 
 <!-- VT -->
@@ -21,4 +18,10 @@
 <!-- HX -->
  <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-18.1" />
 
+<!-- Custom Projects -->
+ <remove-project name="packages_apps_Settings" />
+ <remove-project name="device/generic/opengl-transport" />
+
+ <project name="jagaddhita/packages_apps_settings" path="packages/apps/settings" remote="github" revision="ulysse"
+        
 </manifest>
