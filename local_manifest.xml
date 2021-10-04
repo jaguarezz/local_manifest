@@ -22,6 +22,6 @@
  <remove-project name="packages_apps_Settings" />
  <remove-project name="device/generic/opengl-transport" />
 
- <project name="jagaddhita/packages_apps_settings" path="packages/apps/settings" remote="github" revision="ulysse"
+ <project name="jagaddhita/platform_packages_apps_settings" path="packages/apps/settings" remote="github" revision="ulysse"
         
 </manifest>
