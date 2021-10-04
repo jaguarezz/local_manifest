@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<remote name="github"
+        fetch="https://github.com" />
+
+<!-- Remove Some Project -->
+ <remove-project name="device/generic/opengl-transport" />
+
+<!-- DT -->
+ <project name="jaguarezz/android_device_xiaomi_ulysse" path="device/xiaomi/ulysse" remote="github" revision="dot" />
+ <project name="jaguarezz/android_device_xiaomi_msm8937-common" path="device/xiaomi/msm8937-common" remote="github" revision="eleven" />
+
+<!-- VT -->
+ <project name="jaguarezz/proprietary_vendor_xiaomi_ulysse" path="vendor/xiaomi/ulysse" remote="github" revision="eleven" />
+ <project name="jaguarezz/proprietary_vendor_xiaomi_msm8937-common" path="vendor/xiaomi/msm8937-common" remote="github" revision="eleven" />
+  
+<!-- KT -->
+ <project name="jaguarezz/kernel_xiaomi_ulysse-4.9" path="kernel/xiaomi/ulysse" remote="github" revision="11" />
+
+<!-- HX -->
+ <project name="LineageOS/android_hardware_xiaomi" name="hardware/xiaomi" remote="github" revision="lineage-18.1" />
+
+<!-- Custom Project -->
+ <remove-project name="device_custom_sepolicy" />
+
+ <project name="PixelOS-ginkgo/device_custom_sepolicy" path="device/custom/sepolicy" remote="github" revision="eleven" />
+
+</manifest>
