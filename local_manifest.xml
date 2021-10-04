@@ -18,7 +18,4 @@
 <!-- HX -->
  <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-18.1" />
 
-<!-- Custom Projects -->
- <remove-project name="device/generic/opengl-transport" />
-        
 </manifest>
